@@ -14,4 +14,8 @@ export default {
     sourcemaps: true,
   },
 
+  gulp: {
+    src: 'gulp/**/*.js',
+  },
+
 };

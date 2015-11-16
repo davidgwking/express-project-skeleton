@@ -6,13 +6,13 @@ import jscs   from 'gulp-jscs';
 import jshint from 'gulp-jshint';
 
 gulp.task('lint:jshint', () => {
-  return gulp.src([config.scripts.src])
+  return gulp.src([config.scripts.src, config.gulp.src])
     .pipe(jshint())
     .pipe(jshint.reporter('jshint-stylish'));
 });
 
 gulp.task('lint:jscs', () => {
-  return gulp.src([config.scripts.src])
+  return gulp.src([config.scripts.src, config.gulp.src])
     .pipe(jscs())
     .pipe(jscs.reporter());
 });
