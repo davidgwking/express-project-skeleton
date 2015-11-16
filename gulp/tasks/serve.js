@@ -5,7 +5,7 @@ import gulp     from 'gulp';
 import nodemon  from 'gulp-nodemon';
 
 gulp.task('serve', ['babel'], (cb) => {
-  var demon = nodemon({
+  let demon = nodemon({
     script: config.buildDir + '/app.js',
     ext:    'js',
     tasks:  ['babel'],

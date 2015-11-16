@@ -1,6 +1,6 @@
 import express from 'express';
 
-var router = express.Router();
+let router = express.Router();
 
 router.route('/ping')
   .get(function(request, response) {

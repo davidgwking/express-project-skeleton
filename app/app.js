@@ -5,9 +5,9 @@ import './lib/util/sourcemap-support';
 import express from 'express';
 import serverRoutes from './routes/server';
 
-const PORT = 3001;
+const PORT = 3000;
 
-var app = express();
+let app = express();
 
 app.use('/', serverRoutes);
 
