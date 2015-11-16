@@ -11,7 +11,7 @@ export default {
   },
 
   babel: {
-    prodSourcemap: false,
+    sourcemaps: true,
   },
 
 };
