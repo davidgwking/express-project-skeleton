@@ -3,7 +3,8 @@
   "author": "David King <davidgwking@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "~4.13.3"
+    "express": "~4.13.3",
+    "source-map-support": "^0.3.3"
   },
   "devDependencies": {
     "babel-core": "~6.1.21",
